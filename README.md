@@ -38,3 +38,5 @@ If you are on OSX you need to change the include path, so edit the file ```./heu
 ```
 npm start
 ```
+
+open your favorite browser and go to [http://localhost:3000](http://localhost:3000)
