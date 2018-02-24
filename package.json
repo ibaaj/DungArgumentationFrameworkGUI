@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-websocket-example",
+  "name": "DungArgumentationFrameworkGUI",
   "version": "1.0.0",
-  "description": "it is an example of implementing websocket(ws) on both server and client side",
+  "description": "GUI solver for abstract argumentation (educational)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wahengchang/nodejs-websocket-example.git"
+    "url": "git+https://github.com/ibaaj/DungArgumentationFrameworkGUI.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GNU",
   "bugs": {
-    "url": "https://github.com/wahengchang/nodejs-websocket-example/issues"
+    "url": "https://github.com/ibaaj/DungArgumentationFrameworkGUI/issues"
   },
-  "homepage": "https://github.com/wahengchang/nodejs-websocket-example#readme",
+  "homepage": "https://github.com/ibaaj/DungArgumentationFrameworkGUI#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
