@@ -29,7 +29,9 @@ chmod +x ./heureka/build
 ```
 
 If you are on OSX you need to change the include path, so edit the file ```./heureka/build``` and replace the line 3 with :
+
 ```g++ --std=c++11 -O3 -I /usr/local/include/eigen3 -o heureka *.cpp```
+
 instead of what it is written.
 
 ### Install heureka
