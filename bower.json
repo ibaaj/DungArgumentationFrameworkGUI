@@ -1,0 +1,24 @@
+{
+  "name": "Dung Argumentation Framework GUI",
+  "description": "",
+  "main": "",
+  "authors": [
+    ""
+  ],
+  "license": "",
+  "keywords": [
+    ""
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dagre-d3": "^0.5.4"
+  }
+}
