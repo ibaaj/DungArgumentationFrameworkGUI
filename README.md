@@ -2,6 +2,9 @@
 
 The sum of [dagre-d3](https://github.com/dagrejs/dagre-d3) and [heureka](https://github.com/nilsgeilen/heureka).
 
+Find Preferred, Complete, stable and ground extensions of a given graph built in real time.
+
+
 ![./argGUI.gif](argGUI.gif)
 
 
