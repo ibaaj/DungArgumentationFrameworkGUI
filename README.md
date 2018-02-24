@@ -1,6 +1,6 @@
 # Dung Argumentation Framework GUI
 
-The sum of [dagre-d3](https://github.com/dagrejs/dagre-d3) and [heureka](https://github.com/nilsgeilen/heureka).
+The sum of [dagre-d3](https://github.com/dagrejs/dagre-d3) and [heureka](https://github.com/nilsgeilen/heureka) by Nils Geilen and Matthias Thimm.
 
 Find Preferred, Complete, stable and ground extensions of a given graph built in real time.
 
@@ -45,3 +45,7 @@ npm start
 ```
 
 open your favorite browser and go to [http://localhost:3000](http://localhost:3000)
+
+# Reference  
+
+[Nils Geilen, Matthias Thimm: Heureka: A General Heuristic Backtracking Solver for Abstract Argumentation (TAFA'17)](http://argumentationcompetition.org/2017/heureka.pdf)
