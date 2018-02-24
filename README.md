@@ -1,6 +1,6 @@
 # Dung Argumentation Framework GUI
 
-The sum of [dagre-d3](https://github.com/dagrejs/dagre-d3) and [heureka](https://github.com/nilsgeilen/heureka) by Nils Geilen and Matthias Thimm.
+The sum of [heureka](https://github.com/nilsgeilen/heureka) by Nils Geilen and Matthias Thimm and [dagre-d3](https://github.com/dagrejs/dagre-d3).
 
 Find Preferred, Complete, stable and ground extensions of a given graph built in real time.
 
