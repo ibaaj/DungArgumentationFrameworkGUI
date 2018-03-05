@@ -38,10 +38,10 @@ app.post('/api', function(req, res) {
     var message = req.body.n;
     if (message != '{"node":[],"edge":[]}') {
         makeAPX(message);
-        var pr = execSync('./heureka/heureka -p EE-PR -f a.apx'),
-            st = execSync('./heureka/heureka -p EE-ST -f a.apx'),
-            co = execSync('./heureka/heureka -p EE-CO -f a.apx'),
-            gr = execSync('./heureka/heureka -p EE-GR -f a.apx');
+        var pr = execSync(__dirname + '/heureka/heureka -p EE-PR -f ' + __dirname + '/a.apx'),
+            st = execSync(__dirname + '/heureka/heureka -p EE-ST -f ' + __dirname + '/a.apx'),
+            co = execSync(__dirname + '/heureka/heureka -p EE-CO -f ' + __dirname + '/a.apx'),
+            gr = execSync(__dirname + '/heureka/heureka -p EE-GR -f ' + __dirname + '/a.apx');
 
         var extensions = [pr.toString('utf8'), co.toString('utf8'), gr.toString('utf8'), st.toString('utf8')];
         res.send(JSON.stringify(extensions));
