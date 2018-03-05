@@ -22,6 +22,7 @@ Find Preferred, Complete, stable and ground extensions of a given graph built in
 
 ```
 git clone https://github.com/ibaaj/DungArgumentationFrameworkGUI
+cd DungArgumentationFrameworkGUI
 bower install
 npm install
 git submodule add https://github.com/nilsgeilen/heureka
